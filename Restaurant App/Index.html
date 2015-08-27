@@ -1,0 +1,331 @@
+<!--- STEPHANIE RABACH, 210670407--->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Restaurant</title>
+			<!---Used themeroller to create a theme for the app--->
+			<link rel="stylesheet" href="theme/themes/restaurant.css" />
+			<link rel="stylesheet" href="theme/themes/jquery.mobile.icons.min.css" />
+			<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css"/>
+			<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+			<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+
+<body> 
+
+
+	<!---Index Page---> 
+<div data-role="page" id="index" data-theme=d>
+	<div data-role="header">
+	<h1>Marco's Italian</h1>
+	</div>
+		<!---Collapsible navbar seen on each page--->
+		<div data-role="collapsible" data-mini="true">
+		<h1>Menu</h1>
+		<div data-role="navbar">
+		<ul>   
+		<li><a href="#index" data-icon="home">Index</a></li>				
+		<li><a href="#menu" data-icon="bullets">Menu</a></li>
+		<li><a href="#contact" data-icon="phone">Contact Us</a></li>
+		<li><a href="#about" data-icon="search">About Us</a></li>
+		<li><a href="#feedback" data-icon="check">Feedback</a></li>
+		<li><a href="#developer" data-icon="user">Developer</a></li>
+		</ul>
+		</div>
+		</div>
+				<!---Image showing the name and hours of restaurant with picture--->
+				<div data-role="main" class="ui-content">
+				<p><div data-role="content" class="a" align=center >
+				<img src="homepage.png" />
+				</p>
+				</div>
+						<div data-role="footer">
+						<h2>&copy; Stephanie Rabach 2015<h2>
+						</div>
+				</div>
+				
+</div>
+
+	<!---About Us--->
+<div data-role="page" id="about" data-theme=d>
+	<div data-role="header">
+	<h1>Marco's Italian</h1>
+	</div>
+		<div data-role="collapsible" data-mini="true">
+		<h1>Menu</h1>
+		<div data-role="navbar">
+		<ul>   
+		<li><a href="#index" data-icon="home">Index</a></li>				
+		<li><a href="#menu" data-icon="bullets">Menu</a></li>
+		<li><a href="#contact" data-icon="phone">Contact Us</a></li>
+		<li><a href="#about" data-icon="search">About Us</a></li>
+		<li><a href="#feedback" data-icon="check">Feedback</a></li>
+		<li><a href="#developer" data-icon="user">Developer</a></li>
+		</ul>
+		</div>
+		</div>
+				<!---Image showing the name and hours of restaurant with picture--->
+				<div data-role="main" class="ui-content">
+				<p><div data-role="content" class="a" align=center >
+				<h1>About Us</h1>
+				<br>
+				<img src="about.png" />
+				<br>Marco's Italian has been open since 1998. Born in Italy, Marco and his family had the dream to bring their authentic italian flavours to the USA. 
+				<br>With that dream realized, Marco and his family have delighted their customers for years and will for years to come.
+				<br>Please come in and join us for a meal, and experience an authentic taste of Italy.
+				</p>
+				</div>
+						<div data-role="footer">
+						<h2>&copy; Stephanie Rabach 2015<h2>
+						</div>
+				</div>
+				
+</div>	
+
+	 
+	 <!---Menu--->
+<div data-role="page" id="menu" data-theme=d>
+	
+	<div data-role="header">
+	<h1>Marco's Italian</h1>
+	</div>
+		<div data-role="collapsible" data-mini="true">
+		<h1>Menu</h1>
+		<div data-role="navbar">
+		<ul>   
+		<li><a href="#index" data-icon="home">Index</a></li>				
+		<li><a href="#menu" data-icon="bullets">Menu</a></li>
+		<li><a href="#contact" data-icon="phone">Contact Us</a></li>
+		<li><a href="#about" data-icon="search">About Us</a></li>
+		<li><a href="#feedback" data-icon="check">Feedback</a></li>
+		<li><a href="#developer" data-icon="user">Developer</a></li>
+		</ul>
+		</div>
+		</div>
+				<!---Accordion menu showing the food, when clicked it will decompress and display food description with a picture--->
+				<div data-role="main" class="ui-content">
+				<div data-role="content" class="a" align=center >
+				<h1>Menu</h1>
+				<div data-role="main" class="ui-content">
+						<p>Entrees
+						<br>
+						<div data-role="main" class="ui-content">
+						<div data-role="collapsibleset">
+						<div data-role="collapsible">
+						<h3>Garlic Bread</h3>
+						<p>Crusty white loaf of housemade garlic bread
+						<br>
+						<img src="garlicbread.png" />
+						</p>
+						</div>
+						<div data-role="collapsible">
+						<h3>Arancini</h3>
+						<p>Deep fried balls of risotto with mozerella and marinara filling
+						<br>
+						<img src="arancini.png" />
+						</p>
+						</div>
+						<div data-role="collapsible">
+						<h3>Bruschetta</h3>
+						<p>White loaf pieces with fresh tomatoes and basil
+						<br>
+						<img src="bruschetta.png" />
+						</p>
+						</div>
+						</div>
+						</div>
+						</p>
+							<p>Mains
+							<br>
+							<div data-role="main" class="ui-content">
+							<div data-role="collapsibleset">
+							<div data-role="collapsible">
+							<h3>Spaghetti Bolognese</h3>
+							<p>Pasta served with a tomato and oregano sauce with beef
+							<br>
+							<img src="spag.png" />
+							</p>
+							</div>
+							<div data-role="collapsible">
+							<h3>Steak</h3>
+							<p>Steak with italian style grilled vegetables
+							<br>
+							<img src="steak.png" />
+							</p>
+							</div>
+							<div data-role="collapsible">
+							<h3>Chicken Parmiagana</h3>
+							<p>Fried chicken schnitzel topped with ham, marinara sauce and mozerella cheese
+							<br>
+							<img src="parma.png" />
+							</p>
+							</div>
+							</div>
+							</div>
+							</p>
+								<p>Dessert
+								<br>
+								<div data-role="main" class="ui-content">
+								<div data-role="collapsibleset">
+								<div data-role="collapsible">
+								<h3>Cannoli</h3>
+								<p>Delicate pastry filled with sweetened ricotta
+								<br>
+								<img src="cannoli.png" />
+								</p>
+								</div>
+								<div data-role="collapsible">
+								<h3>Gelati</h3>
+								<p>Seasonal variety of gelati
+								<br>
+								<img src="gelati.png" />
+								</p>
+								</div>
+								<div data-role="collapsible">
+								<h3>Tiramisu</h3>
+								<p>Light cream, custard and ice cream dessert flavoured with chocolate and coffee
+								<br>
+								<img src="tiramisu.png" />
+								</p>
+								</div>
+								</div>
+								</div>
+								</p>
+
+				</div>
+
+				</div>
+				</div>
+				
+				
+	<div data-role="footer">
+	<h2>&copy; Stephanie Rabach 2015<h2>
+	</div>
+</div>
+</div>
+	 
+
+	 <!---Contact--->
+<div data-role="page" id="contact" data-theme=d>
+	
+	<div data-role="header">
+	<h1>Marco's Italian</h1>
+	</div>
+		<div data-role="collapsible" data-mini="true">
+		<h1>Menu</h1>
+		<div data-role="navbar">
+		<ul>   
+		<li><a href="#index" data-icon="home">Index</a></li>				
+		<li><a href="#menu" data-icon="bullets">Menu</a></li>
+		<li><a href="#contact" data-icon="phone">Contact Us</a></li>
+		<li><a href="#about" data-icon="search">About Us</a></li>
+		<li><a href="#feedback" data-icon="check">Feedback</a></li>
+		<li><a href="#developer" data-icon="user">Developer</a></li>
+		</ul>
+		</div>
+		</div>
+				<!---Contact details of restaurant including clickable button that should autodial on a phone and a google maps link that shows exact position in google maps app--->
+				<div data-role="main" class="ui-content">
+				<div data-role="content" class="a">
+				<h1>Contact Us</h1>
+				<p> Marco's Italian
+				<br>123 Sicily Street
+				<br>Harrisonburg</br>
+				<div class="ui-block-b" id="contact_buttons">
+				<a href="tel:5534 1234"  data-role="button" data-icon="phone">PH:5534 1234</a>
+				<a href="https://www.google.com.au/maps/place/Sicily+St,+Harrisonburg,+LA+71340,+USA/@31.7718649,-91.8199115,17z/data=!3m1!4b1!4m2!3m1!1s0x862f786da76c9d55:0xab68e904af47736?hl=en" data-role="button" data-icon="search"> Find us on Google Maps </a>
+				</div>
+				</div>
+				</div>
+				
+				
+	<div data-role="footer">
+	<h2>&copy; Stephanie Rabach 2015<h2>
+	</div>
+</div>
+	 
+	 
+	 <!---Feedback--->
+<div data-role="page" id="feedback" data-theme=d>
+	<div data-role="header">
+	<h1>Marco's Italian</h1>
+	</div>
+			<div data-role="collapsible" data-mini="true">
+			<h1>Menu</h1>
+			<div data-role="navbar">
+			<ul>   
+			<li><a href="#index" data-icon="home">Index</a></li>				
+			<li><a href="#menu" data-icon="bullets">Menu</a></li>
+			<li><a href="#contact" data-icon="phone">Contact Us</a></li>
+			<li><a href="#about" data-icon="search">About Us</a></li>
+			<li><a href="#feedback" data-icon="check">Feedback</a></li>
+			<li><a href="#developer" data-icon="user">Developer</a></li>
+			</ul>
+			</div>
+			</div>
+				<div data-role="main" class="ui-content">
+				<h1>Feedback</h1>
+				<!---Feedback form with input boxes to write your details--->
+				<p>Please provide us with your feedback so we can improve!
+				<br>
+				<div data-role="main" class="ui-content">
+				<form method="post" action="demoform.asp">
+				<div class="ui-field-contain">
+				<label for="fullname">Customer Name:</label>
+				<input type="text" name="fullname" id="fullname">       
+				<label for="contactinfo">Contact Information:</label>
+				<input type="email" name="contactinfol" id="contactinfo">
+				<label for="fback">Customer Feedback:</label>
+				<input type="date" name="fback" id="fback">
+				</div>
+				<input type="submit" data-inline="true" value="Submit">
+				</form>
+				</p>
+				</div>
+				</div>
+
+
+	<div data-role="footer">
+	<h2>&copy; Stephanie Rabach 2015<h2>
+	</div>
+</div>
+	 
+	 <!---developer--->
+<div data-role="page" id="developer" data-theme=d>
+	<div data-role="header">
+	<h1>Marco's Italian</h1>
+	</div>
+			<div data-role="collapsible" data-mini="true">
+			<h1>Menu</h1>
+			<div data-role="navbar">
+			<ul>   
+			<li><a href="#index" data-icon="home">Index</a></li>				
+			<li><a href="#menu" data-icon="bullets">Menu</a></li>
+			<li><a href="#contact" data-icon="phone">Contact Us</a></li>
+			<li><a href="#about" data-icon="search">About Us</a></li>
+			<li><a href="#feedback" data-icon="check">Feedback</a></li>
+			<li><a href="#developer" data-icon="user">Developer</a></li>
+			</ul>
+			</div>
+			</div>
+					<!---Data on developer of app including clickable phone number to autodial and email which i couldn't get to work the way I wanted--->
+					<div data-role="main" class="ui-content">
+					<h1>Developer</h1>
+					<p>Stephanie Rabach
+					<br>Marco's Italian Application Developer</br>
+					<div class="ui-block-b" id="contact_buttons">
+					<a href="steph.rabach@gmail.com"  data-role="button" data-icon="mail">steph.rabach@gmail.com</a>
+					<a href="tel:5612 4321"  data-role="button" data-icon="phone">PH:5612 4321</a>
+					</div>
+					</div>
+					
+					
+	<div data-role="footer">
+	<h2>&copy; Stephanie Rabach 2015<h2>
+	</div>
+</div>
+	 
+	 
+	 
+</body>
+</html>
